@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="logo">
+        <div class="message">
+          <h1>Facebook</h1>
+          <p>Already have an accout..?</p>
+          <a href="signin.html">Signin</a>
+        </div>
+      </div>
+      <div class="right-col">
+        <div class="center">
+        
+          <form action="Signup" method="post">
+            <p>Name:</p>
+            <input type="text" name="name" />
+            <p>Email :</p>
+            <input type="email" name="email" />
+
+            <p>Password:</p>
+            <input type="password" name="password"  />
+		
+		 <p>Gender:</p>
+
+            <input type="radio" name="gender" value="male" />
+            <span>Male</span>
+            <input type="radio" name="gender" value="female" />
+            <span>Female</span>
+            <p>Age:</p>
+            <input type="text" name="age" pattern="[0-9]{2}" title="Number Only"/>
+            <p>city:</p>
+            <input type="text" name="city" />
+            
+            <div class="button">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

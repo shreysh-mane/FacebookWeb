@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", "sans-serif";
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.right-col {
+  background-color: blue;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.center {
+  background-color: pink;
+  width: 50%;
+  padding: 7% 5% 3%;
+}
+.update-center{
+  width: 100% !important;
+}
+
+.right-col input[type="text"],
+input[type="Email"],
+input[type="password"] {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+  padding: 4px 3px;
+}
+.right-col input[type="radio"] {
+  margin: 12px 0;
+}
+
+.right-col input[type="file"] {
+  margin: 12px 0;
+}
+.right-col span {
+  font-size: 18px;
+}
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button button {
+  padding: 10px;
+}

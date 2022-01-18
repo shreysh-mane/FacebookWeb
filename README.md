@@ -2,14 +2,14 @@
 
 ## Project Description
 
-It is an command line social media application.
+It is an social media application.
 
 ## Technologies Used
-
+* Hibernate
 * java - version 1.8
 * oracle - version 11
 * maven - version 4.0.0
-* junit - version 3.8.1
+* Servlet
 
 ## Features
 
@@ -31,7 +31,7 @@ To-do list:
 
 ## Usage
 
-* Clone the repository. using ! Git Clone https://github.com/shreysh-mane/FacebookCommandline.git
+* Clone the repository. using ! Git Clone https://github.com/shreysh-mane/FacebookWeb/tree/master
 * Open the repository in your IDE workspace.
 * And run the FbView.java file.
 

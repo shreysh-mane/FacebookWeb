@@ -33,5 +33,5 @@ To-do list:
 
 * Clone the repository. using ! Git Clone https://github.com/shreysh-mane/FacebookWeb/tree/master
 * Open the repository in your IDE workspace.
-* And run the FbView.java file.
+* And run the index.html file on server.
 
